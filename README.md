@@ -4,7 +4,7 @@
 This project analyzes employee salary and performance data using SQL and Python.
 
 ## 🛠 Technologies Used
-- MySQL
+- SQLite3
 - Python
 - Pandas
 - Matplotlib
