@@ -16,7 +16,7 @@ This project analyzes employee salary and performance data using SQL and Python.
 - Data visualization
 
 ## 🚀 How to Run
-1. Run SQL script in MySQL.
+1. Run SQL script.
 2. Install requirements:
    pip install -r requirements.txt
    3. Run:
