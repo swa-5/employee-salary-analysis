@@ -1,9 +1,17 @@
 import sqlite3
 import pandas as pd
 import matplotlib.pyplot as plt
+import os
 
 # Database connection
 conn = sqlite3.connect("company.db")
+cursor = conn.cursor()
+
+with open("database_setup.sql", "r") as file:
+    sql_script = file.read()
+    cursor.executescript(sql_script)
+
+conn.commit()
 
 # Load data
 query = "SELECT * FROM employees"
