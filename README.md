@@ -19,7 +19,7 @@ This project analyzes employee salary and performance data using SQL and Python.
 1. Run SQL script.
 2. Install requirements:
    pip install -r requirements.txt
-   3. Run:
+3. Run:
       python project.py
 
       ## 📈 Business Value
